@@ -5,8 +5,10 @@ ServiceApp is j2ee based web application used for recieving request from custome
 
 Pre requisites:
 
-Database : Mysql
+Database : Mysql(go through Service.sql file for sql queries to create tables)
+
 jdk : 1.8
+
 Eclipse IDE:Oxygen or Neon version.
 
 The project is built as a maven project.
