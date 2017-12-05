@@ -3,15 +3,37 @@ An web application for proving support functionality
 
 ServiceApp is j2ee based web application used for recieving request from customer and solving them.
 
-## Pre requisites:
+## Prerequisites
 
-Database : Mysql(go through Service.sql file for sql queries to create tables)
+Install Java. Make sure you have Java installed.
 
-jdk : 1.8
+## Tomcat Installation
 
-Eclipse IDE:Oxygen or Neon version.
+1.Go to https://tomcat.apache.org/download-80.cgi and download latest version of tomcat.
 
-The project is built as a maven project.
+2.Unzip Tomcat.
+
+## MySql
+
+click here https://www.mysql.com/downloads/ and download latest version of mysql.
+
+## Steps to Build Application
+
+1. Download teh source code from git repository and extract it.
+
+2. Build it using "mvn install" command in terminal. Now a war file gets generated.
+
+## Steps to run Application
+
+1. Enter http://localhost:8080 in browser.
+
+2. Tomcat Home page will be displayed.(if any port issues found tan change teh port numbers in server.xml file)
+
+3. Upload the war file of the application in the specified location.
+
+4. Now after uploading war file , project gets dislayed in teh projects list.
+
+5. Click on teh project, you will be directed to home page of application.
 
 ## Execution Flow:
 
