@@ -3,7 +3,7 @@ An web application for proving support functionality
 
 ServiceApp is j2ee based web application used for recieving request from customer and solving them.
 
-# Pre requisites:
+## Pre requisites:
 
 Database : Mysql(go through Service.sql file for sql queries to create tables)
 
@@ -13,7 +13,7 @@ Eclipse IDE:Oxygen or Neon version.
 
 The project is built as a maven project.
 
-# Execution Flow:
+## Execution Flow:
 
 1.The Execution starts from index.jsp, where the admin has several options like ,
    a. Add Customer,
@@ -30,7 +30,7 @@ The project is built as a maven project.
 
 6.The "ViewCustomerServlet" page shows the details of the customers who laid a ticket for service.
 
-# License
+## License
 MIT License
 
 Copyright (c) [2017] [NikhilReddyPurumandla]
